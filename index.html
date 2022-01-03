@@ -8,3 +8,95 @@
         <meta name='description' content='HTML, CSS & Git Basics'>
         <link href="./style.css" rel="stylesheet">
     </head>
+      <body>
+          <div class="container">
+              <header>
+                  <nav>
+                    <ul id="ul">
+                      <li class="li"><a href="#ContactInfo">Contact Info</a></li>
+                      <li class="li"><a href="#AboutMe">About Me</a></li>
+                      <li class="li"><a href="#Mystrengths">My strengths</a></li>
+                      <li class="li"><a href="#Skills">Skills</a></li>
+                      <li class="li"><a href="#CodeExamples">Code Examples</a></li>
+                      <li class="li"><a href="#Education">Education</a></li>
+                      <li class="li"><a href="#Languages">Languages</a></li>
+                    </ul>
+                  </nav>
+              </header>
+              <div class="info">
+                <aside>
+                  <h1 class='title'>Aliaksei Abraztsou</h1>
+                  <img class='photo' src="./img/myPhoto.jpg" height="350" alt="Photo">
+                  <h2 id='ContactInfo' class='title'>My Contact Info:</h2>
+                     <ul>
+                       <li><h3>Phone: +375 29 593-74-73</h3></li>
+                       <li><h3>E-mail: alexlovi@mail.ru</h3></li>
+                       <li><h3>GitHub: Alexey-Obraztsov</h3></li>
+                       <li><h3>Telegram: Alexey Obraztsov</h3></li>
+                       <li><h3>Discord: Alexey (@Alexey-Obraztsov)</h3></li>
+                    </ul>
+                </aside>
+                <main>
+                  <h2 id='AboutMe' class='title'>About Me</h2>
+                  <p>I am 23 years old, I work as an aviation engineer. A year ago I became interested in front-end development and I want to try myself in this field. I am interested in constantly developing, learning something new. I don't see great prospects in my job, so I decided to study programming, which is developing at a tremendous speed.</p>
+                  <h2 id='Mystrengths' class='title'>My strengths</h2>
+                    <ul class="lists">
+                      <li>Perseverance</li>
+                      <li>Curiosity</li>
+                      <li>Responsibility</li>
+                      <li>Sociability</li>
+                      <li>Stress tolerance</li>
+                    </ul>             
+                  <h2 id='Skills' class='title'>Skills</h2>
+                    <ul class="lists">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Git/GitHub</li>
+                    </ul>
+                  <h2 id='CodeExamples' class='title'>Code Examples</h2>
+                  <p>Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. For the purpose of this challenge, do not use the built-in .repeat() method.</p>
+                  <pre> 
+                    <code>
+function repeatStringNumTimes(str, num) {
+  var accumulatedStr = "";
+                          
+  while (num > 0) {
+    accumulatedStr += str;
+    num--;
+  }
+                          
+  return accumulatedStr;
+}                                                    
+                    </code>
+                  </pre>
+                  <h2 id='Education' class='title'>Education</h2>
+                    <ol class="ol">
+                      <li>Graduated from the Belarusian State Aviation Academy with a degree in technical operation of aviation equipment (radio-electronic equipment).</li>
+                      <li>I took online courses at freeCodeCamp:</li>
+                    </ol>
+                    <ul class=lists1>
+                      <li>Responsive Web Design</li>
+                      <li>JavaScript Algoritms and Data Structures</li>
+                    </ul>
+                  <h2 id='Languages' class='title'>Languages</h2>
+                    <ul class=lists2>
+                      <li>Russian - native speaker.</li>
+                      <li>Belarussian - native speaker.</li>
+                      <li>English - A2 (B1 in process…).</li>
+                    </ul>
+                </main>
+              </div>
+              <footer>
+                  <a class="my-github" href="https://github.com/Alexey-Obraztsov">
+                     <img class="github-icon" src="https://w7.pngwing.com/pngs/514/926/png-transparent-cat-icon-icons-cats-animal-icon.png" alt="Github Icon" width="36" height="36">
+                     <p>Visit my GitHub</p>
+                  </a>
+                  <p>© 2021</p>
+                  <a class="rss" href="https://rs.school/js/">
+                     <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="Rsschool Icon" width="73" height="26">
+                  </a>
+              </footer> 
+          </div>   
+      </body>
+    </html>
