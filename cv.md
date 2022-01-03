@@ -4,7 +4,7 @@
 * Phone: +375 29 593-74-73
 * E-mail: alexlovi@mail.ru
 * GitHub: Alexey-Obraztsov
-* Telegram Alexey Obraztsov
+* Telegram: Alexey Obraztsov
 * Discord: Alexey (@Alexey-Obraztsov)
 
 # About Me
